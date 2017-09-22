@@ -5,7 +5,6 @@ target 'XYImagePreview_Example' do
 
   target 'XYImagePreview_Tests' do
     inherit! :search_paths
-
     
   end
 end
