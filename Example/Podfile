@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XYImagePreview_Example' do
+  pod 'XYImagePreview', :path => '../'
+
+  target 'XYImagePreview_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
