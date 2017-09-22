@@ -1,7 +1,9 @@
 use_frameworks!
 
+platform :ios, '8.0'
 target 'XYImagePreview_Example' do
-  pod 'XYImagePreview', :path => '../'
+#  pod 'XYImagePreview', :path => '../'
+pod 'XYImagePreview'
 
   target 'XYImagePreview_Tests' do
     inherit! :search_paths

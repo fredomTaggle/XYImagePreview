@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "STImageVIew.h"
+#import "UIView+XYPreAdd.h"
+#import "XYImageModel.h"
+#import "XYImagePreview.h"
+#import "XYPhotoPreview.h"
 
 FOUNDATION_EXPORT double XYImagePreviewVersionNumber;
 FOUNDATION_EXPORT const unsigned char XYImagePreviewVersionString[];
